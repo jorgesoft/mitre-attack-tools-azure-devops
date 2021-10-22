@@ -12,7 +12,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: jorgesoft/attack-website
-          path: attack-website
 
       -  name: Set up QEMU
          uses: docker/setup-qemu-action@v1
