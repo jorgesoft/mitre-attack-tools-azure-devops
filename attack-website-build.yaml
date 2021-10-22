@@ -10,6 +10,7 @@ resources:
   - repository: AttackWebsite 
     type: github
     name: mitre-attack/attack-website
+    endpoint: jorgesoft
 
 variables:
   tag: '$(Build.BuildId)'
